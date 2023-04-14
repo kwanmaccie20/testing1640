@@ -1,0 +1,331 @@
+{
+    "invalidEmailInCredential": [
+        { 
+            "email": "ehnson@example.c",
+            "password": "Vfs6iy"
+        },
+        {
+            "email": "sarson@email.m",
+            "password": "z@rcOM"
+        }, 
+        {
+            "email": "jo@email.m",
+            "password": "OaQGJx"
+        },
+        {
+            "email": "gmail.m",
+            "password": "IO2xZa"
+        },
+        {
+            "email": "example.com",
+            "password": "VY38cE"
+          },
+          {
+            "email": "test@.com",
+            "password": "QwErTy"
+          },
+          {
+            "email": "user@domain.",
+            "password": "z5Pt7L"
+          }
+  ],
+    "invalidCredentials": [
+        { 
+           "email": "emily.johnson@example.vn",
+           "password": "Vfs6iy"
+        },
+        {
+           "email": "sarah.johnson@email.com",
+           "password": "z@rcOM6"
+        }, 
+        {
+           "email": "john.smith@email.com",
+           "password": "OaQGJ15x"
+        },
+        {
+           "email": "leahy244@gmail.com",
+           "password": "IO2xZ@@a"
+        },
+        {
+            "email": "sarah.joson@email.com",
+            "password": "z@rcOM6"
+         }, 
+         {
+            "email": "john.smth@email.com",
+            "password": "OaQGJ15x"
+         },
+         {
+            "email": "le44@gmail.com",
+            "password": "IO2xZ@@a"
+         }
+   ],
+    "validCredentials": [
+        { 
+           "email": "emily.johnson@example.com",
+           "password": "Vfs6iy"
+        },
+        {
+           "email": "sarah.johnson@email.com",
+           "password": "z@rcOM"
+        }, 
+        {
+           "email": "john.smith@email.com",
+           "password": "OaQGJx"
+        },
+        {
+           "email": "leahuy244@gmail.com",
+           "password": "IO2xZa"
+        }
+   ],
+    "staff": [
+        
+   ],
+    "staffDuplicate": [
+    
+   ],
+    "department": [
+    
+   ],
+    "departmentDuplicate": [
+    
+   ],
+    "tag": [
+    
+   ],
+    "tagDuplicate": [
+    
+   ],
+    "campaign": [
+    
+   ],
+    "idea": [
+    
+   ],
+    "academicYear": [
+    
+   ],
+    "adminLink": [
+        {
+            "url": "manager/departments",
+            "expected": "Department Management"
+        },
+        {
+            "url": "manager/dashboard",
+            "expected": "Dashboard"
+        },
+        {
+            "url": "",
+            "expected": "Explore"
+        },
+        {
+            "url": "manager/staff",
+            "expected": "Staff Management"
+        },
+        {
+            "url": "manager/campaigns",
+            "expected": "Campaign Management"
+        },
+        {
+            "url": "manager/ideas",
+            "expected": "Idea Management"
+        },
+        {
+            "url": "manager/tags",
+            "expected": "Tags Management"
+        },
+        {
+            "url": "manager/academic-years",
+            "expected": "Academic Year Management"
+        },
+        {
+            "url": "about",
+            "expected": "About"
+        },
+        {
+            "url": "help",
+            "expected": "Help"
+        },
+        {
+            "url": "coordinator/department",
+            "expected": "HTTP ERROR 403"
+        },
+        {
+            "url": "coordinator/idea",
+            "expected": "HTTP ERROR 403"
+        },
+        {
+            "url": "coordinator/idea",
+            "expected": "HTTP ERROR 403"
+        }
+   ],
+    "qACoordinatorLink": [
+        {
+            "url": "manager/departments",
+            "expected": "HTTP ERROR 403"
+        },
+        {
+            "url": "manager/dashboard",
+            "expected": "HTTP ERROR 403"
+        },
+        {
+            "url": "",
+            "expected": "Explore"
+        },
+        {
+            "url": "manager/staff",
+            "expected": "HTTP ERROR 403"
+        },
+        {
+            "url": "manager/campaigns",
+            "expected": "HTTP ERROR 403"
+        },
+        {
+            "url": "manager/ideas",
+            "expected": "HTTP ERROR 403"
+        },
+        {
+            "url": "manager/tags",
+            "expected": "HTTP ERROR 403"
+        },
+        {
+            "url": "manager/academic-years",
+            "expected": "HTTP ERROR 403"
+        },
+        {
+            "url": "about",
+            "expected": "About"
+        },
+        {
+            "url": "help",
+            "expected": "Help"
+        },
+        {
+            "url": "archived",
+            "expected": "Archived"
+        },
+        {
+            "url": "coordinator/department",
+            "expected": "Department"
+        },
+        {
+            "url": "coordinator/idea",
+            "expected": "Department Ideas"
+        },
+        {
+            "url": "coordinator/idea",
+            "expected": "Department Ideas"
+        }
+   ],
+    "staffLink": [
+        {
+            "url": "manager/departments",
+            "expected": "HTTP ERROR 403"
+        },
+        {
+            "url": "manager/dashboard",
+            "expected": "HTTP ERROR 403"
+        },
+        {
+            "url": "",
+            "expected": "Explore"
+        },
+        {
+            "url": "manager/staff",
+            "expected": "HTTP ERROR 403"
+        },
+        {
+            "url": "manager/campaigns",
+            "expected": "HTTP ERROR 403"
+        },
+        {
+            "url": "manager/ideas",
+            "expected": "HTTP ERROR 403"
+        },
+        {
+            "url": "manager/tags",
+            "expected": "HTTP ERROR 403"
+        },
+        {
+            "url": "manager/academic-years",
+            "expected": "HTTP ERROR 403"
+        },
+        {
+            "url": "about",
+            "expected": "About"
+        },
+        {
+            "url": "help",
+            "expected": "Help"
+        },
+        {
+            "url": "archived",
+            "expected": "Archived"
+        },
+        {
+            "url": "coordinator/department",
+            "expected": "HTTP ERROR 403"
+        },
+        {
+            "url": "coordinator/idea",
+            "expected": "HTTP ERROR 403"
+        },
+        {
+            "url": "coordinator/idea",
+            "expected": "HTTP ERROR 403"
+        } 
+   ],
+    "unAuthLink": [
+        {
+            "url": "manager/departments",
+            "expected": "auth"
+        },
+        {
+            "url": "manager/dashboard",
+            "expected": "auth"
+        },
+        {
+            "url": "",
+            "expected": "auth"
+        },
+        {
+            "url": "manager/staff",
+            "expected": "auth"
+        },
+        {
+            "url": "manager/campaigns",
+            "expected": "auth"
+        },
+        {
+            "url": "manager/ideas",
+            "expected": "auth"
+        },
+        {
+            "url": "manager/tags",
+            "expected": "auth"
+        },
+        {
+            "url": "manager/academic-years",
+            "expected": "auth"
+        },
+        {
+            "url": "about",
+            "expected": "auth"
+        },
+        {
+            "url": "help",
+            "expected": "auth"
+        },
+        {
+            "url": "coordinator/department",
+            "expected": "auth"
+        },
+        {
+            "url": "coordinator/idea",
+            "expected": "auth"
+        },
+        {
+            "url": "coordinator/idea",
+            "expected": "auth"
+        }
+   ] 
+}

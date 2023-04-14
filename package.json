@@ -1,0 +1,25 @@
+{
+  "name": "nextuni.test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "author": "khangnv",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^8.8.2"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^8.8.2",
+    "@wdio/mocha-framework": "^8.8.0",
+    "@wdio/spec-reporter": "^8.8.0",
+    "chai": "^4.3.7",
+    "chromedriver": "^112.0.0",
+    "wdio-chromedriver-service": "^8.1.1",
+    "wdio-html-nice-reporter": "^8.1.0",
+    "wdio-wait-for": "^3.0.3"
+  }
+}
