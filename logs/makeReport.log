@@ -1,0 +1,17 @@
+[2023-04-15T01:08:09.768] [INFO] debug - Report Aggregation started
+[2023-04-15T01:08:09.781] [INFO] debug - Included metrics for suite: 0-1 suite-0-0
+[2023-04-15T01:08:09.783] [INFO] debug - Included metrics for suite: 0-1 suite-0-1
+[2023-04-15T01:08:09.784] [INFO] debug - Included metrics for suite: 0-2 suite-0-0
+[2023-04-15T01:08:09.785] [INFO] debug - Included metrics for suite: 0-2 suite-0-1
+[2023-04-15T01:08:09.786] [INFO] debug - Included metrics for suite: 0-2 suite-0-2
+[2023-04-15T01:08:09.787] [INFO] debug - Included metrics for suite: 0-0 suite-0-0
+[2023-04-15T01:08:09.788] [INFO] debug - Included metrics for suite: 0-0 suite-0-1
+[2023-04-15T01:08:09.790] [INFO] debug - Aggregated 3 specs, 7 suites, 
+[2023-04-15T01:08:09.793] [INFO] debug - Json report write starting: E:\Website1640\Nextjs\nextuni.test\reports\html-reports\master-report.json
+[2023-04-15T01:08:10.026] [INFO] debug - Json write completed: E:\Website1640\Nextjs\nextuni.test\reports\html-reports\master-report.json
+[2023-04-15T01:08:10.027] [INFO] debug - Json Generation Completed
+[2023-04-15T01:08:10.028] [INFO] debug - Html Generation started in E:\Website1640\Nextjs\nextuni.test\node_modules\wdio-html-nice-reporter
+[2023-04-15T01:08:10.180] [INFO] debug - Html Generation Completed
+[2023-04-15T01:08:10.344] [INFO] debug - copyied css : E:\Website1640\Nextjs\nextuni.test\node_modules\wdio-html-nice-reporter\css\ to E:\Website1640\Nextjs\nextuni.test\reports\html-reports\
+[2023-04-15T01:08:10.397] [INFO] debug - browser launched
+[2023-04-15T01:08:10.398] [INFO] debug - Report Aggregation completed

@@ -149,7 +149,21 @@
             failed: '[FAILED]',
           },
         },
-      ],'html-nice'],
+      ],
+      ["html-nice", {
+        outputDir: 'html-reports',
+        filename: 'report.html',
+        reportTitle: 'Test Report Title',
+    }
+    ], 
+    [
+      "allure", 
+      {
+        outputDir: "allure-reports",
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: false,
+      }
+    ]],
 
 
     
@@ -307,4 +321,12 @@
     */
     // onReload: function(oldSessionId, newSessionId) {
     // }
+    afterStep: async function (step, scenario, {error, duration, passed}, context) {
+      if(error) {
+        browser.takeScreenshot();
+      } 
+      if(passed) {
+        browser.takeScreenshot();
+      }
+    },
 }
